@@ -2,33 +2,33 @@
 
 SDC Hackathon 2026 · Domain 1
 
-RePath 是面向转型求职、在职进阶和重返职场人群的职业探索原型。它从用户已有的项目经历出发，梳理可迁移能力，比较职业方向，并结合每周可投入时间生成行动计划。
+RePath is a career exploration prototype for people changing careers, growing in their current roles, or returning to work. It starts with users' existing project experience, identifies transferable skills, compares career directions, and generates an action plan based on the time they can commit each week.
 
-本仓库收录 RePath 0.2 源码、评委体验材料和提交文档；产品界面使用 RePath 名称。
+This repository contains the RePath 0.2 source code, a judge evaluation kit, and submission documents. The product interface uses the name RePath.
 
-## Demo 与视频
+## Demo and Video
 
-| 入口 | 链接 / 说明 |
+| Resource | Link / Instructions |
 | --- | --- |
-| 在线 Demo | [打开 RePath](https://repath-ai-0-2.lianghuihu.chatgpt.site) |
-| 本地 Demo | 下载仓库后，双击 [`test/本地演示.html`](test/本地演示.html) |
-| 评委体验说明 | [`test/README.md`](test/README.md) |
-| 演示视频（YouTube） | [观看 RePath 演示视频](https://youtu.be/V1pJCyuwFq0) |
+| Online demo | [Open RePath](https://repath-ai-0-2.lianghuihu.chatgpt.site) |
+| Local demo | Download the repository and double-click the [standalone demo](test/本地演示.html) |
+| Evaluation guide | [Judge evaluation instructions](test/README.md) |
+| Demo video (YouTube) | [Watch the RePath demo](https://youtu.be/V1pJCyuwFq0) |
 
-在线 Demo 的托管访问权限可能受限，评审前需确认已开放相应权限；无法访问时，可使用本地 Demo 或按下方步骤运行源码。产品内无需注册的演示流程与托管平台访问权限相互独立。
+Access to the hosted demo may be restricted. Confirm that reviewers have access before evaluation. If the site is unavailable, use the local demo or run the source code as described below. The demo's in-product experience requires no registration; hosting access is managed separately.
 
-## 3 分钟体验
+## Three-Minute Walkthrough
 
-1. 打开 Demo，点击「看案例」，选择转型求职、在职进阶或重返职场的虚构案例。
-2. 查看已有能力、推荐方向与待补能力，比较 8 个职业方向。
-3. 选择方向，进入准备方案，确认每周时间并生成行动计划。
-4. 点击「体验我的完整周计划」，查看完整周任务、进度、自评、方向对比与计划下载；无需付款。
+1. Open the demo, select English, click **See an example**, and choose **Changing careers**, **Growing in my role**, or **Returning to work**. All examples are fictional.
+2. Review existing skills, recommended career directions, and skill gaps. Compare the eight available career directions.
+3. Choose a direction, click **View preparation plan**, confirm your weekly availability, and select **Build my action plan**.
+4. Click **Try my full weekly plan** to explore the full Pro weekly tasks, progress tracking, self-assessment, direction comparisons, and plan downloads. No payment is required.
 
-需要验证个人记录时，可在「记录管理 → 导入记录」选择 [`test/演示数据/`](test/演示数据/) 内的 JSON。导入会替换当前浏览器的个人记录，请先导出已有记录。案例均为虚构，详见[案例说明](test/演示数据/案例说明.md)。
+To test personal record management, open **Records → Import records** and select a JSON file from the [sample data folder](test/演示数据/). Importing replaces the current browser's personal records, so export any existing records first. All sample data is fictional; see the [case descriptions](test/演示数据/案例说明.md).
 
-## 本地运行
+## Run Locally
 
-环境要求：**Node.js 20 或更高版本**。项目使用原生 HTML、CSS、JavaScript ES Modules，无第三方 npm 依赖，无需执行 `npm install`。
+Requirement: **Node.js 20 or later**. The project uses native HTML, CSS, and JavaScript ES Modules with no third-party npm dependencies. You do not need to run `npm install`.
 
 ```bash
 git clone https://github.com/mont365789/SDC-hackathon-2026-gravity.git
@@ -36,40 +36,42 @@ cd SDC-hackathon-2026-gravity/src/RePath
 npm start
 ```
 
-浏览器打开 [http://localhost:5173](http://localhost:5173)。若设置了 `PORT` 环境变量，以终端打印的地址为准。下载 ZIP 的用户可直接进入解压目录中的 `src/RePath/` 执行 `npm start`。
+Open [http://localhost:5173](http://localhost:5173) in your browser. If you set the `PORT` environment variable, use the address printed in the terminal. If you downloaded a ZIP instead, open `src/RePath/` inside the extracted repository and run `npm start`.
 
-源码入口 `src/RePath/dist/index.html` 需要通过服务器运行；可直接双击的独立演示文件位于 `test/本地演示.html`。
+The source entry point, `src/RePath/dist/index.html`, must be served through a web server. The standalone local demo at `test/本地演示.html` can be opened directly by double-clicking it.
 
-在 `src/RePath/` 内运行现有测试：
+Run the existing tests from `src/RePath/`:
 
 ```bash
 npm test
 ```
 
-## 材料目录
+## Repository and Submission Materials
 
-| 路径 | 内容 |
+| Path | Contents |
 | --- | --- |
-| [`src/RePath/`](src/RePath/) | 主源码：`dist/` 前端文件、`server.mjs` 本地服务、`scripts/` 工具、`tests/` 测试、`data/source-pack/` 来源摘录 |
-| [`src/RePath/README.md`](src/RePath/README.md) | 产品、匹配规则、数据来源与实现边界 |
-| [`src/RePath/README-GITHUB.md`](src/RePath/README-GITHUB.md) | 源码导出、运行与静态部署说明 |
-| [`test/`](test/) | 评委体验包：单文件 Demo、体验说明、虚构演示数据与源码副本；开发以 `src/RePath/` 为入口 |
-| [`submission/SDC2026_gravity_Preliminary.pdf`](submission/SDC2026_gravity_Preliminary.pdf) | 初赛项目文档 |
-| [`submission/RePath_Technical_Tools_Declaration.docx`](submission/RePath_Technical_Tools_Declaration.docx) | 技术与工具声明 |
-| [`submission/SDC2026_gravity_Replit_POU.pdf`](submission/SDC2026_gravity_Replit_POU.pdf) | Replit 使用证明材料 |
-| [`submission/RePath-RunPod-Non-Applicability-Declaration-Gravity.pdf`](submission/RePath-RunPod-Non-Applicability-Declaration-Gravity.pdf) | RunPod 不适用声明 |
+| [`src/RePath/`](src/RePath/) | Main source: frontend files in `dist/`, the local server in `server.mjs`, utilities in `scripts/`, tests in `tests/`, and source excerpts in `data/source-pack/` |
+| [`src/RePath/README.md`](src/RePath/README.md) | Product details, matching rules, data sources, and implementation limits |
+| [`src/RePath/README-GITHUB.md`](src/RePath/README-GITHUB.md) | Source export, local setup, and static deployment instructions |
+| [`test/`](test/) | Judge evaluation kit: standalone demo, walkthrough, fictional sample data, and a source copy. Use `src/RePath/` for development |
+| [`submission/SDC2026_gravity_Preliminary.pdf`](submission/SDC2026_gravity_Preliminary.pdf) | Preliminary submission document |
+| [`submission/RePath_Technical_Tools_Declaration.docx`](submission/RePath_Technical_Tools_Declaration.docx) | Technical tools declaration |
+| [`submission/SDC2026_gravity_Replit_POU.pdf`](submission/SDC2026_gravity_Replit_POU.pdf) | Replit proof-of-use materials |
+| [`submission/RePath-RunPod-Non-Applicability-Declaration-Gravity.pdf`](submission/RePath-RunPod-Non-Applicability-Declaration-Gravity.pdf) | RunPod non-applicability declaration |
 
-## 已实现功能与技术边界
+Some linked supporting documents and filenames remain in Chinese. The application supports English as well as Chinese and Bahasa Melayu.
 
-- 8 个职业方向、能力与经验匹配、能力差距说明、按每周时间生成行动计划。
-- Free / Pro 体验、收藏、周任务进度、自评、计划 TXT 下载。
-- 中文、English、Bahasa Melayu，深色与浅色主题。
-- 浏览器个人记录保存，以及 JSON 导出、预览后导入、确认删除。
+## Implemented Features and Limits
 
-当前为前端比赛 Demo。职业匹配使用浏览器中的规则计算，**未接入运行时大模型 API**；匹配分数不代表录用概率。账户、订阅与 RM 19/月定价为演示，无真实支付或招聘投递。个人记录保存在当前浏览器，无跨设备同步。
+- Eight career directions, skill and experience matching, skill gap explanations, and action plans based on weekly availability.
+- Free / Pro demo experiences, saved directions, weekly task progress, self-assessment, and TXT plan downloads.
+- Chinese, English, and Bahasa Melayu interfaces, with light and dark themes.
+- Personal records stored in the browser, JSON export, import with preview, and deletion with confirmation.
 
-职业资料采用 DOSM、O*NET 与 WEF 的来源快照或摘要；arXiv RSS 用于研究资讯，网络或跨域限制可能影响刷新，缓存可供离线展示。具体来源、映射与限制见[源码说明](src/RePath/README.md)。
+This is a frontend competition demo. Career matching uses rules computed in the browser; **no large language model API is called at runtime**. Match scores do not represent the probability of getting hired. Accounts, subscriptions, and the RM 19/month price are demonstration concepts. The prototype does not process real payments or submit job applications. Personal records are stored in the current browser without cross-device synchronization.
 
-## 许可
+Career information uses source snapshots or summaries from DOSM, O*NET, and WEF. arXiv RSS provides research updates; network or cross-origin restrictions may affect refreshes, while cached content remains available for offline display. See the [source documentation](src/RePath/README.md) for sources, mappings, and limitations.
 
-代码采用 [Apache-2.0](src/RePath/LICENSE)。第三方数据、Logo 与字体按各自许可使用，详见 [NOTICE](src/RePath/NOTICE)。
+## License
+
+The code is licensed under [Apache-2.0](src/RePath/LICENSE). Third-party data, logos, and fonts remain subject to their respective terms; see [NOTICE](src/RePath/NOTICE).
