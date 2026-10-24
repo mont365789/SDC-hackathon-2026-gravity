@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+
+# Local editor settings and temporary files
+.vscode/
+.idea/
+*.tmp
+*.swp
+
+# Optional Python maintenance scripts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated test coverage
+coverage/
+.nyc_output/
