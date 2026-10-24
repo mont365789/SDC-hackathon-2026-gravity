@@ -1,0 +1,4 @@
+# RePath has no third-party Python dependencies.
+# The application runs on Node.js 20+; run npm start from src/RePath/.
+# The optional scripts/build-theme-palette.py uses only the Python standard library.
+# No packages need to be installed with pip for the current project.
