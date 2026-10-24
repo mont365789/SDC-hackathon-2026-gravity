@@ -1,0 +1,10 @@
+# RePath 0.2: run from the GitHub repository root.
+# Source code is in src/RePath; no dependency installation or build is needed.
+run = "node src/RePath/server.mjs"
+entrypoint = "src/RePath/server.mjs"
+modules = ["nodejs-22"]
+
+# Keep PORT at 5173 when using this port mapping.
+[[ports]]
+localPort = 5173
+externalPort = 80
