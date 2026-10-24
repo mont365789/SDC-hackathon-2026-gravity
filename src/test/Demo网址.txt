@@ -1,0 +1,4 @@
+https://repath-ai-0-2.lianghuihu.chatgpt.site
+
+首页点击“看案例”，即可使用预置虚构数据。
+在线托管当前仅所有者可访问；评委需先获得权限，或双击“本地演示.html”。

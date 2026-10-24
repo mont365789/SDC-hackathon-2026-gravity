@@ -1,0 +1,55 @@
+{
+  "format": "repath-records",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-24T17:54:39.033Z",
+  "data": {
+    "profile": {
+      "name": "林凯（虚构）",
+      "role": "运营与市场主管",
+      "years": 10,
+      "experience": "用 Excel 整理每周工单，协调客户需求与运营团队，梳理问题分类和处理流程，形成业务报告。",
+      "hours": 6,
+      "hoursConfirmed": false,
+      "budget": "free",
+      "skills": [
+        "communication",
+        "coordination",
+        "reporting",
+        "spreadsheet",
+        "operations"
+      ],
+      "project": {
+        "name": "售后工单流程改进（虚构）",
+        "actions": "用 Excel 整理每周工单，协调客户需求与运营团队，梳理问题分类和处理流程，形成业务报告。",
+        "result": "整理三类高频问题，交付周报和处理清单。以上项目与结果均为虚构。"
+      },
+      "context": {
+        "employment": "left",
+        "reason": "layoff",
+        "priority": "income",
+        "goal": "nearby",
+        "concern": "希望尽快恢复收入，优先考虑能复用运营经验的工作，并在投递同时补关键技能。"
+      },
+      "aiUsage": {
+        "content": "none",
+        "analysis": "basic",
+        "coding": "none",
+        "workflow": "none"
+      },
+      "aiFocus": "verification"
+    },
+    "saved": [],
+    "target": "analyst",
+    "scenario": "moderate",
+    "pro": false,
+    "progress": {},
+    "executionPlans": {},
+    "weeklyProgress": {},
+    "reflections": [],
+    "planReady": {},
+    "goalChosen": false,
+    "profileConfirmed": true,
+    "sessionReady": true,
+    "onboardingComplete": true
+  }
+}

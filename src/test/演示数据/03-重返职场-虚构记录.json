@@ -1,0 +1,54 @@
+{
+  "format": "repath-records",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-24T17:54:39.037Z",
+  "data": {
+    "profile": {
+      "name": "周宁（虚构）",
+      "role": "客户关系专员",
+      "years": 7,
+      "experience": "开展客户访谈，收集服务反馈，用电子表格归类问题，整理市场调研摘要和业务报告，与团队沟通改进建议。",
+      "hours": 8,
+      "hoursConfirmed": false,
+      "budget": "free",
+      "skills": [
+        "communication",
+        "research",
+        "reporting",
+        "spreadsheet"
+      ],
+      "project": {
+        "name": "客户访谈与反馈整理（虚构）",
+        "actions": "开展客户访谈，收集服务反馈，用电子表格归类问题，整理市场调研摘要和业务报告，与团队沟通改进建议。",
+        "result": "交付访谈提纲、反馈表和调研摘要。以上项目与结果均为虚构。"
+      },
+      "context": {
+        "employment": "returning",
+        "reason": "return",
+        "priority": "study",
+        "goal": "nearby",
+        "concern": "离开职场一段时间，希望先安排学习与作品练习，再用客户经验探索市场研究方向。"
+      },
+      "aiUsage": {
+        "content": "basic",
+        "analysis": "basic",
+        "coding": "none",
+        "workflow": "none"
+      },
+      "aiFocus": "principles"
+    },
+    "saved": [],
+    "target": "market",
+    "scenario": "moderate",
+    "pro": false,
+    "progress": {},
+    "executionPlans": {},
+    "weeklyProgress": {},
+    "reflections": [],
+    "planReady": {},
+    "goalChosen": false,
+    "profileConfirmed": true,
+    "sessionReady": true,
+    "onboardingComplete": true
+  }
+}

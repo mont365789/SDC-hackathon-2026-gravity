@@ -1,0 +1,55 @@
+{
+  "format": "repath-records",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-24T17:54:39.036Z",
+  "data": {
+    "profile": {
+      "name": "陈敏（虚构）",
+      "role": "业务运营经理",
+      "years": 12,
+      "experience": "协调客户和多个业务团队，拆分交付节点，安排里程碑，跟进预算、成本和运营流程。",
+      "hours": 4,
+      "hoursConfirmed": false,
+      "budget": "free",
+      "skills": [
+        "communication",
+        "coordination",
+        "operations",
+        "planning",
+        "budgeting"
+      ],
+      "project": {
+        "name": "跨部门交付排期（虚构）",
+        "actions": "协调客户和多个业务团队，拆分交付节点，安排里程碑，跟进预算、成本和运营流程。",
+        "result": "交付排期表、预算跟踪表和问题清单。以上项目与结果均为虚构。"
+      },
+      "context": {
+        "employment": "employed",
+        "reason": "growth",
+        "priority": "parallel",
+        "goal": "advance",
+        "concern": "暂时保留现有工作，希望逐步承担项目管理职责，在不离职的情况下准备进阶。"
+      },
+      "aiUsage": {
+        "content": "none",
+        "analysis": "none",
+        "coding": "none",
+        "workflow": "basic"
+      },
+      "aiFocus": "integration"
+    },
+    "saved": [],
+    "target": "project",
+    "scenario": "moderate",
+    "pro": false,
+    "progress": {},
+    "executionPlans": {},
+    "weeklyProgress": {},
+    "reflections": [],
+    "planReady": {},
+    "goalChosen": false,
+    "profileConfirmed": true,
+    "sessionReady": true,
+    "onboardingComplete": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "package": "RePath AI four source integration pack",
+  "checked_at": "2026-10-24",
+  "sources": [
+    {
+      "id": "dosm_jmi",
+      "name": "DOSM Job Market Insights",
+      "publisher": "Department of Statistics Malaysia",
+      "scope": "Malaysia",
+      "primary_url": "https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q22026",
+      "secondary_urls": [
+        "https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q12026",
+        "https://www.dosm.gov.my/portal-main/release-archive/big-data-analytics-job-market-insights-and-my-job-profile-second-quarter-of-"
+      ],
+      "type": "official_quarterly_report",
+      "cadence": "quarterly",
+      "automation": "Periodically check official release page; import verified published tables/data. No stable public JMI API verified.",
+      "credential": "none for public reports",
+      "role": "Local demand observation: advertised online job offerings by occupational group and selected professions",
+      "limit": "Not live vacancies; some categories are broad; does not measure AI job replacement; Q1/Q2 statistics cannot be indiscriminately compared across changed breakdowns.",
+      "last_verified": "2026-10-24"
+    },
+    {
+      "id": "arxiv_cs_ai",
+      "name": "arXiv AI RSS",
+      "publisher": "arXiv",
+      "scope": "Global research",
+      "primary_url": "https://rss.arxiv.org/rss/cs.AI",
+      "secondary_urls": [
+        "https://rss.arxiv.org/rss/cs.LG",
+        "https://rss.arxiv.org/rss/cs.CL",
+        "https://github.com/arXiv/arxiv-docs/blob/develop/source/help/rss.md"
+      ],
+      "type": "rss_feed",
+      "cadence": "daily (some dates empty)",
+      "automation": "Public RSS fetch; cache and timestamp; respect terms and modest request rate",
+      "credential": "none for public RSS",
+      "role": "Observe new AI papers and dated research topics (early signal only)",
+      "limit": "Preprints are not validated industry adoption; never infer automatic job losses from papers.",
+      "last_verified": "2026-10-24"
+    },
+    {
+      "id": "wef_foj2025",
+      "name": "WEF Future of Jobs Report 2025",
+      "publisher": "World Economic Forum",
+      "scope": "Global employer survey across 55 economies",
+      "primary_url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+      "secondary_urls": [
+        "https://www.weforum.org/publications/the-future-of-jobs-report-2025/data-explorer/",
+        "https://www.weforum.org/publications/the-future-of-jobs-report-2025/3-skills-outlook"
+      ],
+      "type": "periodic_research_report",
+      "cadence": "periodic; 2025 report published 2025-01-07",
+      "automation": "Update reference when newer official reports are released; no verified public live data API",
+      "credential": "no key for web reading; reuse restrictions may apply",
+      "role": "Long-term 2025–2030 occupational and skill outlook; background and scenario rationale",
+      "limit": "Survey estimates and forecasts, not observed 2026 Malaysian job postings or a real-time feed.",
+      "last_verified": "2026-10-24"
+    },
+    {
+      "id": "onet_31",
+      "name": "O*NET 31.0 Database",
+      "publisher": "O*NET Program / U.S. Department of Labor",
+      "scope": "United States occupations, cross-market reference",
+      "primary_url": "https://www.onetcenter.org/database.html",
+      "secondary_urls": [
+        "https://services.onetcenter.org/reference/start/overview",
+        "https://services.onetcenter.org/reference/database",
+        "https://www.onetcenter.org/db_releases.html"
+      ],
+      "type": "database_and_web_services",
+      "cadence": "quarterly releases; web services track latest release",
+      "automation": "Download official versioned CSV/JSON tables or use registered O*NET Web Services API (X-API-Key)",
+      "credential": "registration and API key required for Web Services (downloads may not need a key)",
+      "role": "Occupation taxonomy, tasks, skills, transferable skills, skill-gap matching",
+      "limit": "US occupational reference requires explicit mapping and review for Malaysian relevance; attribution CC BY 4.0 subject to exceptions.",
+      "last_verified": "2026-10-24"
+    }
+  ]
+}

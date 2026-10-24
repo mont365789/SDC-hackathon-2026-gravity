@@ -1,0 +1,58 @@
+RePath AI Demo — 2026
+
+Original application code and interface are provided under Apache License 2.0.
+
+Occupational names, codes and task references: O*NET® OnLine, U.S. Department
+of Labor, Employment and Training Administration (USDOL/ETA).
+https://www.onetonline.org/
+https://www.onetcenter.org/license_db.html
+https://creativecommons.org/licenses/by/4.0/
+RePath has translated and shortened occupational display names and independently
+curated skill labels and explanations. These modifications and scoring rules
+have not been approved, endorsed or tested by USDOL/ETA. O*NET® is a trademark
+of USDOL/ETA. No complete O*NET database is redistributed.
+
+Malaysian quarterly online job-offering excerpts: Department of Statistics
+Malaysia, Job Market Insights Q1 and Q2 2026. Five matched categories were
+checked against the official release pages on 2026-10-24. Not live vacancies.
+https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q12026
+https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q22026
+
+Selected occupation data and task statements from the O*NET 31.0 database.
+Eight occupation records with three tasks each are redistributed under the
+linked CC BY 4.0 terms; translated names and skill mappings are modifications.
+https://www.onetcenter.org/dl_files/database/db_31_0_json/occupation_data.json
+https://www.onetcenter.org/dl_files/database/db_31_0_json/task_statements.json
+
+Long-term context: World Economic Forum, The Future of Jobs Report 2025,
+published 2025-01-07. Linked and briefly paraphrased; no report redistributed.
+https://www.weforum.org/publications/the-future-of-jobs-report-2025/
+
+Research metadata: arXiv cs.AI RSS. Links and dates are cached when available.
+No paper full text is redistributed. Research is not used as hiring evidence.
+https://rss.arxiv.org/rss/cs.AI
+
+Learning resources are linked, not copied: Microsoft Learn and The Open
+University OpenLearn. Their content and marks belong to their respective owners.
+
+Fonts, when the visitor can reach Google Fonts, are DM Sans and Noto Sans SC
+under the SIL Open Font License. System fonts are used if unavailable.
+No font binaries are distributed in this repository.
+
+Apple, Microsoft and Steam were user-provided design references. Their logos,
+screenshots, product interfaces and proprietary assets are not copied.
+
+Development assistance: OpenAI Codex. Hosting: Sites. No generative-model
+service is called by the running application. Matching runs in the browser.
+
+User-supplied reference media: Repath_Demo.zip, provided by the user.
+dist/assets/repath-mark.png was extracted from that reference without pixel
+editing. The horizon image was removed in v0.4. Reference media retain their original rights and are not relicensed by the
+application's Apache-2.0 code license. The reference inspired the horizontal
+navigation and skills-first flow. Its synthetic employment/demand figures and
+ability scores are not used as verified evidence in this application.
+
+Current 0.2 brand lockup: user-selected RePath reference image provided on
+2026-10-24, prepared as dist/assets/repath-logo.png with built-in image_gen
+background extraction. Website layout and theme-specific lettering are handled
+by branding.mjs and CSS. The original user artwork retains its rights.

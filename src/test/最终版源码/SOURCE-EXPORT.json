@@ -1,0 +1,25 @@
+{
+  "product": "RePath",
+  "artifact": "Complete source export for GitHub",
+  "exported_at": "2026-10-24T15:55:25.380725+00:00",
+  "website_url": "https://repath-ai-0-2.lianghuihu.chatgpt.site",
+  "site_version_id": "appgprj_6adcac63b23c8191afda00206a87429d~appgver_eca266fd1440819195bfdb2483a6e9fd",
+  "source_commit": "ae4e5901f51fa6d4028d80a680dc4ef2fc1c100e",
+  "deployment_status_verified": "succeeded",
+  "original_tracked_file_count": 53,
+  "source_files_modified": false,
+  "added_export_documents": [
+    "README-GITHUB.md",
+    "SOURCE-EXPORT.json",
+    "SHA256SUMS.txt"
+  ],
+  "static_directory": "dist",
+  "start_command": "npm start",
+  "node_engine": ">=20",
+  "excluded": [
+    "Git history and credentials",
+    "Untracked presentation/design/video work",
+    "Browser personal records",
+    "Temporary previews and generated standalone HTML"
+  ]
+}
