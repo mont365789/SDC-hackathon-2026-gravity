@@ -1,0 +1,24 @@
+{
+  "version": "0.2",
+  "status": "active",
+  "based_on": "0.1",
+  "baseline_commit": "fd5aff66dedfe76f6447fa5466994c666d9df7cc",
+  "project_id": "appgprj_6adcac63b23c8191afda00206a87429d",
+  "changes": [
+    "Separate Site, URL, artifacts and browser storage",
+    "Visible 0.2 version indicator",
+    "Explicit sample/personal data mode",
+    "My strengths opens personal project entry or report",
+    "Gradient typography, layered cards and motion respecting reduced-motion settings",
+    "Persistent light/dark themes without clearing active form input",
+    "8 O*NET 31.0-backed directions with category filters, pagination and evidence detail",
+    "Verified DOSM Q1/Q2 2026 comparisons, distinct market ordering and reference sources",
+    "Actual arXiv RSS fetch with empty, stale and unavailable states",
+    "User-selected cyan R / navy RePath logo, transparent background, light/dark wordmark and matching favicon",
+    "Current release designated main version; visible 0.2 badge removed; browser and hosting titles use RePath",
+    "Header record manager with validated JSON backup import/export and confirmed deletion of personal browser records"
+  ],
+  "product_name": "RePath",
+  "channel": "main",
+  "visible_version_label": false
+}

@@ -1,0 +1,46 @@
+{
+  "source": "Department of Statistics Malaysia (DOSM) — Big Data Analytics: Job Market Insights",
+  "data_status": "verified_limited_excerpt_manual_transcription",
+  "metric": "job_offerings_advertised_online",
+  "unit": "number_of_offerings",
+  "geography": "Malaysia",
+  "scope_note": "Only selected national aggregate occupation-group and selected-profession values, not full records. Counts are not uniquely identified workers or confirmed placements.",
+  "periods": {
+    "2026-Q1": {
+      "published_date": "2026-06-25",
+      "source_url": "https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q12026",
+      "values": {
+        "all_online_job_offerings": 626861,
+        "managers": 99447,
+        "professionals": 315768,
+        "advertising_and_marketing_professionals": 48186,
+        "software_developers": 20089
+      }
+    },
+    "2026-Q2": {
+      "published_date": "2026-08-18",
+      "source_url": "https://www.dosm.gov.my/portal-main/release-content/big-data-analytics-job-market-insights-q22026",
+      "values": {
+        "all_online_job_offerings": 555509,
+        "managers": 87950,
+        "professionals": 285907,
+        "advertising_and_marketing_professionals": 40640,
+        "software_developers": 19899
+      }
+    }
+  },
+  "category_definitions": {
+    "all_online_job_offerings": "All online advertised job offerings",
+    "managers": "Major occupational group: Managers",
+    "professionals": "Major occupational group: Professionals",
+    "advertising_and_marketing_professionals": "Selected occupation: Advertising and Marketing Professionals",
+    "software_developers": "Selected occupation: Software Developers"
+  },
+  "limitations": [
+    "Excerpted from DOSM official releases; not automatically refreshed",
+    "Aggregate counts cannot establish causal role of AI",
+    "Broad occupation-group changes may not translate to selected future roles",
+    "Sample excludes job-ad skills and any salary fields"
+  ],
+  "last_verified": "2026-10-24"
+}
